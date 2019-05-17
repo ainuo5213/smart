@@ -1,2 +1,11 @@
-# smart
-a vue project for new programmer
+# 拼图小游戏
+**可自己配置，如行数，图片原路径，容器宽度等**
+```javascript
+new Puzzle('#game',{
+        rows:3,
+        url:'./img/1.jpg',
+        width:500
+    })
+```
+**第一个参数：容器选择器**
+**第二个参数：可传可不传，传入参数不定，均有默认配置**
